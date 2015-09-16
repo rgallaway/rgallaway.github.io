@@ -150,9 +150,9 @@
         </div>
 
         <script>
-          window.page = window.location.hash || "#about";
+          window.page = window.location.hash || "#home";
           $(document).ready(function() {
-            if (window.page != "#about") {
+            if (window.page != "#home") {
               $(".menu").find("li[data-target=" + window.page + "]").trigger("click");
             }
           });
@@ -197,14 +197,6 @@
             lines = lines.join("\n");
             return lines;
           }
-          $("#opensource").click(function() {
-            $.get(window.location.href, function(data){
-              var html = $(data).find(window.page).html();
-              html = cleanSource(html);
-              $("#source-modal pre").text(html);
-              $("#source-modal").modal();
-            });
-          });
         </script>
 
         <!-- Your site ends -->
