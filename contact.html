@@ -5,7 +5,11 @@ title: Contact
 ---
 ## Contact
 
-<form accept-charset="UTF-8" action="https://formkeep.com/f/57bad476fb44" method="POST">
-  <input type="hidden" name="utf8" value="✓">
-  <button type="submit">Submit</button>
+<form accept-charset="UTF-8" action="https://formkeep.com/f/57bad476fb44" method="POST" id="contactform">
+    <input type="email" name="email" placeholder="Your Email">
+    <input type="text" name="name" placeholder="Your Name">
+    <input type="url" name="url" placeholder="Your Website">
+    <button type="submit">Submit</button>
 </form>
+
+<textarea name="message" form="contactform">Enter message here</textarea>
