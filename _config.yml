@@ -1,0 +1,42 @@
+# Site settings
+
+url: "http://rgallaway.github.io"
+title: "Ryan Gallaway"
+description: "Ryan Gallaway's personal website"
+keywords: "ryan, gallaway, ryan gallaway, technology, computer science"
+favicon: "/img/favicon.ico"
+black-favicon: "/img/favicon-black.ico"
+google-tracking-id: False
+disqus-shortname: False
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Resume: 'resume'
+  Contact: 'contact'
+
+background-img: "/img/intro-bg.jpg"
+
+# About variables
+
+me-img: "/img/me.jpg"
+
+fb-share: False
+twitter-share: False
+reddit-share: False
+
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "github"
+    url: "https://github.com/rgallaway"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/pub/ryan-gallaway/105/a83/292"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
