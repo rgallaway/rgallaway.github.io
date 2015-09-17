@@ -1,7 +1,3 @@
----
----
-/* YAML block in order to get processed by Jekyll */
-
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -48,10 +44,6 @@ p {
     }
 }
 
-nop {
-
-}
-
 a {
     color: #fed136;
     /* color: #219ab3; */
@@ -70,15 +62,6 @@ a:focus {
 .light {
     font-weight: 400;
 }
-
-.personal-list {
-  text-align: center;
-  margin: 0 0 35px;
-  font-size: 20px;
-  line-height: 1.5;
-  list-style-position: inside;
-}
-
 
 .navbar-custom {
     margin-bottom: 0;
@@ -157,7 +140,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url( {{ site.background-img }} ) no-repeat bottom center scroll;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -233,7 +216,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {
+@-webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -250,7 +233,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {
+@-moz-keyframes pulse {    
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
