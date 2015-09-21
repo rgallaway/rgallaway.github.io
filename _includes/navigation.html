@@ -18,7 +18,7 @@
                         <a href="#page-top"></a>
                     </li>
 
-                    {% for page in site.pages | sort: "title" %}
+                    {% for page in site.pages %}
                     {% unless page.url == "/index.html" %}
                     <li>
                         <a class="page-scroll" href="#{{ page.title }}">{{ page.title }}</a>
