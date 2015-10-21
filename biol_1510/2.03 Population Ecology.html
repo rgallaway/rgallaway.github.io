@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- common.css -->
+  <style>body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:16px 2%;color:#333;word-wrap:break-word}img{max-width:100%!important}code{margin:0;padding:.2em 0;font-size:85%;background-color:rgba(0,0,0,.04);border-radius:3px}code:after,code:before{letter-spacing:-.2em;content:"\00a0"}pre{margin:0}pre>code{margin:0;padding:0;font-size:100%;word-break:normal;background:0 0;border:0}blockquote{margin:0;padding:0 15px;color:#777;border-left:4px solid #ddd}hr{background-color:#ddd;border:0;height:1px;margin:15px 0}ol{list-style-type:decimal}ol ol,ul ol{list-style-type:lower-latin}ol ol ol,ol ul ol,ul ol ol,ul ul ol{list-style-type:lower-roman}table{border-spacing:0;border-collapse:collapse;margin-top:0;margin-bottom:16px}table th{font-weight:700}table td,table th{padding:6px 13px;border:1px solid #ddd}table tr{background-color:#fff;border-top:1px solid #ccc}table tr:nth-child(even){background-color:#f8f8f8}input[type=checkbox]{cursor:default;margin-right:.5em}.task-list-item{list-style-type:none}.task-list-item+.task-list-item{margin-top:3px}.task-list-item input{float:left;margin:.3em 1em .25em -1.6em;vertical-align:middle}</style>
+  <!-- exported.css -->
+  <style>
+    #nav{margin:5px 10px 10px;font-size:15px}
+    #titlearea{border-bottom:1px solid #ccc;font-size:17px;padding:10px}
+    #contentarea{font-size:15px;margin:16px 0}
+    .cell{outline:0;min-height:20px;margin:5px 0;padding:5px 10px;line-height:1.4}
+    .code-cell{font-size:13px}
+    .latex-cell{white-space:pre-wrap;}
+  </style>
+  <!-- User CSS -->
+  <style> .text-cell {font-size: 14px;}.code-cell {font-size: 12px;}.markdown-cell {font-size: 14px;}.latex-cell {font-size: 14px;}</style>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true,
+        processClass: 'latex-cell'
+      },
+      "HTML-CSS": {
+        preferredFont: "STIX"
+      }
+    };
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/docco.min.css">
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class="tex2jax_ignore">
+  <div id="nav"><div>Next: <a href='2.04 Community Ecology.html'>2.04 Community Ecology</a>, Previous: <a href='2.02 Behavioral Ecology.html'>2.02 Behavioral Ecology</a>, Up: <a href='index.html'>Index</a></div></div>
+  <div id="titlearea">
+    <h2>2.03 Population Ecology</h2>
+  </div>
+  <div id="contentarea"><div class='cell text-cell'><h3>Population Ecology</h3><div><ul><li>Population - group of interacting organisms of the same species</li><ul><li>Pre-reproductive juveniles and reproductive adults</li></ul><li>Demographic structure: Numbers of individuals of each age or stage</li><li>Vary in size &amp; density</li><li>Geographic range has bounds established by other species and physical limits</li><li>Dynamics of growth</li></ul></div></div><div class='cell text-cell'><h3>Exponential (Geometric) Population Growth</h3><div><ul><li>Assume every individual produces 2 offspring then dies (double size each generation)</li><ul><li>How an ideal bacterium in unlimited resources would reproduce</li></ul><li>Growth rate is constant in population size N</li><ul><li>intrinsic rate of natural increase (r) = birth rate (b) - death rate (d)</li></ul></ul></div></div><div class='cell latex-cell'>Exponential growth equation $\frac{dN}{dt}=rN$ helps model growth over time $t$.
+If size at next generation is current size times growth rate in that interval, we see stepwise growth. $N(t+1) = N(t)e^r$. $e^r$ is the discrete growth rate $\lambda$.
+$\lambda$ and $r$ are fixed, but population explodes in size quickly, quickly consuming all habitat & resources.
+
+$N_1 = N_0 + B - D + I - E$</div><div class='cell text-cell'><h3>Logistic Population Growth Levels Off at a Carrying Capacity</h3><div><ul><li>Carrying capacity: maximum pop size the environment can sustain</li><ul><li>Individuals must be dying at similar rate to birth to keep same pop size</li><li>Growth rate slows as size increases, stops when carrying capacity is reached</li></ul></ul></div></div><div class='cell latex-cell'>$$\frac{dN}{dt}=rN\left(\frac{K-N}{K}\right)$$ where $K$ is carrying capacity</div><div class='cell text-cell'><h3>Population size is regulated by factors that are dependent or independent of population density</h3><div><ul><li>Biological factors: predation, competition, parasitism, mutualism, disease, etc</li><li>Non-biological factors: temperature, precipitation, pollution, salinity, pH, etc</li><ul><li>All can change size, but only biological factors can regulate populations</li><li>Mutualism does not regulate becuase it promotes growth</li></ul><li>Bio factors affect dense &amp; sparse populations differently (disease for example)</li><ul><li>Territoriality, disease, predation, toxic wastes</li></ul></ul></div></div><div class='cell text-cell'><h3>Life history traits and their evolution</h3><div><ul><li>Life cycle for each population is optimized, explained by Life History Theory</li><ul><li>Optimized, not maximized, due to tradeoffs between survival &amp; reproduction</li></ul><li>Life history tradeoff as explained above, leading hypothesis is that energy is limiting factor</li></ul></div></div><div class='cell text-cell'><h3>Life tables are a valuable tool to examine how age structure can change population’s growth trajectory</h3><div><ul><li>Life table is basic tool of demography</li><ul><li>Used to study characteristics like survival, fecundity, mortality</li><li>Critical when ecologists want to know how well endangered or transplanted populations are doing</li></ul><li>Cohort life tables follow one group born at the same time until death of all individuals</li><ul><li><span style="line-height: 1.4;">Key assumptions:</span><br></li><ul><li><span style="line-height: 1.4;">Populations ample of each age class is proportional to numbers in population</span></li><li><span style="line-height: 1.4;">Age-specific mortality rates constant during time period</span></li></ul></ul><li>(table on website)</li><ul><li>First row represents birth year, each subsequent row is one year later, not all survive year to year</li><li>Survivorship: mortality as a proportion of the original cohort</li><li>Age-specific fecundity: avg offspring born to individuals, estimated from data</li></ul><li>If assumptions are met, sum of (survivorship * fecundity) at each age gives growth parameter R<sub>0</sub></li><li>When&nbsp;R<sub>0</sub>&nbsp;&gt; 1, population is producing more offspring than losing from death (growing)</li><li>Patterns of age-specific survival predict general life history of population, creating survivorship curves (lx vs. time)</li><ul><li>Type I: low mortality at young ages, high mortality as age increases</li><li>Type II: mortality constant, regardless of age</li><li>Type III: high mortality at early age, need high birth rates to sustain, but low mortality as age increases</li></ul></ul></div></div><div class='cell text-cell'>Write multiple choice answers:<div><ul><li>The exponential and logistic models differ in that:</li><ul><li>Correct: The logistic model takes carrying capacity into account</li><li>Incorrect: The exponential model has an upper bound</li></ul></ul></div></div></div>
+</body>
+</html>

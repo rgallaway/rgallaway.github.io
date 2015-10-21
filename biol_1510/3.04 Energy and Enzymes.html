@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- common.css -->
+  <style>body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:16px 2%;color:#333;word-wrap:break-word}img{max-width:100%!important}code{margin:0;padding:.2em 0;font-size:85%;background-color:rgba(0,0,0,.04);border-radius:3px}code:after,code:before{letter-spacing:-.2em;content:"\00a0"}pre{margin:0}pre>code{margin:0;padding:0;font-size:100%;word-break:normal;background:0 0;border:0}blockquote{margin:0;padding:0 15px;color:#777;border-left:4px solid #ddd}hr{background-color:#ddd;border:0;height:1px;margin:15px 0}ol{list-style-type:decimal}ol ol,ul ol{list-style-type:lower-latin}ol ol ol,ol ul ol,ul ol ol,ul ul ol{list-style-type:lower-roman}table{border-spacing:0;border-collapse:collapse;margin-top:0;margin-bottom:16px}table th{font-weight:700}table td,table th{padding:6px 13px;border:1px solid #ddd}table tr{background-color:#fff;border-top:1px solid #ccc}table tr:nth-child(even){background-color:#f8f8f8}input[type=checkbox]{cursor:default;margin-right:.5em}.task-list-item{list-style-type:none}.task-list-item+.task-list-item{margin-top:3px}.task-list-item input{float:left;margin:.3em 1em .25em -1.6em;vertical-align:middle}</style>
+  <!-- exported.css -->
+  <style>
+    #nav{margin:5px 10px 10px;font-size:15px}
+    #titlearea{border-bottom:1px solid #ccc;font-size:17px;padding:10px}
+    #contentarea{font-size:15px;margin:16px 0}
+    .cell{outline:0;min-height:20px;margin:5px 0;padding:5px 10px;line-height:1.4}
+    .code-cell{font-size:13px}
+    .latex-cell{white-space:pre-wrap;}
+  </style>
+  <!-- User CSS -->
+  <style> .text-cell {font-size: 14px;}.code-cell {font-size: 12px;}.markdown-cell {font-size: 14px;}.latex-cell {font-size: 14px;}</style>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true,
+        processClass: 'latex-cell'
+      },
+      "HTML-CSS": {
+        preferredFont: "STIX"
+      }
+    };
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/docco.min.css">
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class="tex2jax_ignore">
+  <div id="nav"><div>Next: <a href='3.05 Respiration, Chemiosmosis, and Oxidative Phosphorylation.html'>3.05 Respiration, Chemiosmosis, and Oxidative Phosphorylation</a>, Previous: <a href='3.03 Cells.html'>3.03 Cells</a>, Up: <a href='index.html'>Index</a></div></div>
+  <div id="titlearea">
+    <h2>3.04 Energy and Enzymes</h2>
+  </div>
+  <div id="contentarea"><div class='cell text-cell'><h3>Laws of Thermodynamics</h3><div><ul><li>First: Energy cannot be created or destroyed.</li><li>Second: In any conversion, some energy is wasted as heat; entropy of a closed system always increases</li><ul><li>An economy based on endless growth is Unsustainable</li><li>Energy pyramids: each trophic level only captures at most 10% of the energy from lower level</li><li>Work within organisms releases heat, raising overall entropy</li></ul></ul></div></div><div class='cell text-cell'><h3>Gibbs Free Energy</h3><div><ul><li>Measure of the amount of work that is potentially obtainable</li><ul><li>Measure change in free energy:&nbsp;<span style="font-family: Georgia, 'Bitstream Charter', serif; font-size: 16px; background-color: rgb(255, 255, 255);">ΔG = ΔH – TΔS</span></li><ul><li>H = enthalpy (heat energy content)</li><li>T = absolute temperature (Kelvin)</li><li>S = entropy</li></ul><li>If delta G &lt; 0, reaction is exergonic, releases free energy, progresses spontaneously</li><li>If delta G &gt; 0, reaction is endergonic, absorbs energy, will progress only if free energy is put into the system</li></ul></ul></div></div><div class='cell text-cell'><h3>Free Energy and Equilibrium</h3><div><ul><li>If delta G = 0, reaction is in equilibrium, so no net change</li><li>Cells couple exergonic reactions to endergonic reactions so that net free energy change is negative</li></ul></div></div><div class='cell text-cell'><h3>Reaction Rates</h3><div><ul><li>Sign of delta G determines direction of the reaction, but magnitude does not predict speed</li><li>Rate is determined by the activation energy barrier</li><ul><li>Reactions with high activation energy proceed slowly because only a few molecules get enough energy<br></li></ul><li>Enzymes speed up reactions by lowering activation energy barrier</li><ul><li>Act as biological catalysts, most are proteins but some are RNA molecules</li><li>Only ones with specific shape &amp; chemical organization can interact with amino acid side chains at the active site</li></ul><li>Enzyme-catalyzed reactions have saturation kinetics</li><ul><li>Velocity of reactions increases with concentration of substrate</li><ul><li>At high concentrations, quantity of enzyme molecules is limiting</li><li>At saturation, further increases in concentration have no effect; only way to speed up reaction is to increase amount of enzyme</li></ul><li>Kinetic properties of enzymes are defined by Vmax and Km</li><ul><li>Vmax is maximum rate enzyme can work at saturating concentrations of substrate</li><li>Km (Michaelis constant) is substrate concentration that produces 1/2 Vmax, affinity of enzyme for substrate</li></ul></ul></ul></div></div><div class='cell text-cell'><h3>Enzyme Inhibitors</h3><div><ul><li>Targets of many drugs, many enzymes are regulated by allosteric regulators that bind at different site from active site</li><li>Noncompetitive inhibitors act allosterically</li><li>Competitive inhibitors compete with substrate for binding to active site</li></ul></div></div></div>
+</body>
+</html>
