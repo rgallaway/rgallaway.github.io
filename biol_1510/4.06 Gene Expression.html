@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- common.css -->
+  <style>body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:16px 2%;color:#333;word-wrap:break-word}img{max-width:100%!important}code{margin:0;padding:.2em 0;font-size:85%;background-color:rgba(0,0,0,.04);border-radius:3px}code:after,code:before{letter-spacing:-.2em;content:"\00a0"}pre{margin:0}pre>code{margin:0;padding:0;font-size:100%;word-break:normal;background:0 0;border:0}blockquote{margin:0;padding:0 15px;color:#777;border-left:4px solid #ddd}hr{background-color:#ddd;border:0;height:1px;margin:15px 0}ol{list-style-type:decimal}ol ol,ul ol{list-style-type:lower-latin}ol ol ol,ol ul ol,ul ol ol,ul ul ol{list-style-type:lower-roman}table{border-spacing:0;border-collapse:collapse;margin-top:0;margin-bottom:16px}table th{font-weight:700}table td,table th{padding:6px 13px;border:1px solid #ddd}table tr{background-color:#fff;border-top:1px solid #ccc}table tr:nth-child(even){background-color:#f8f8f8}input[type=checkbox]{cursor:default;margin-right:.5em}.task-list-item{list-style-type:none}.task-list-item+.task-list-item{margin-top:3px}.task-list-item input{float:left;margin:.3em 1em .25em -1.6em;vertical-align:middle}</style>
+  <!-- exported.css -->
+  <style>
+    #nav{margin:5px 10px 10px;font-size:15px}
+    #titlearea{border-bottom:1px solid #ccc;font-size:17px;padding:10px}
+    #contentarea{font-size:15px;margin:16px 0}
+    .cell{outline:0;min-height:20px;margin:5px 0;padding:5px 10px;line-height:1.4}
+    .code-cell{font-size:13px}
+    .latex-cell{white-space:pre-wrap;}
+  </style>
+  <!-- User CSS -->
+  <style> .text-cell {font-size: 14px;}.code-cell {font-size: 12px;}.markdown-cell {font-size: 14px;}.latex-cell {font-size: 14px;}</style>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true,
+        processClass: 'latex-cell'
+      },
+      "HTML-CSS": {
+        preferredFont: "STIX"
+      }
+    };
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/docco.min.css">
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class="tex2jax_ignore">
+  <div id="nav"><div>Next: <a href='4.07 Genomes.html'>4.07 Genomes</a>, Previous: <a href='4.05 DNA.html'>4.05 DNA</a>, Up: <a href='index.html'>Index</a></div></div>
+  <div id="titlearea">
+    <h2>4.06 Gene Expression</h2>
+  </div>
+  <div id="contentarea"><div class='cell text-cell'><h3>The Central Dogma</h3><div><ul><li>Flow of information from nucleic acid to protein</li><li>DNA transcribed to RNA, RNA translated to sequence of amino acids</li></ul></div></div><div class='cell text-cell'><h3>Transcription: DNA to RNA</h3><div><ul><li>Enzyme RNA polymerase reads template strand of DNA, synthesizes RNA molecule with complementary bases</li><li>RNA is synthesized 5’ -&gt; 3’, RNA polymerase reads template DNA 3’ -&gt; 5’</li><li>Sequence of bases is same as sequence in “coding” strand of DNA, except RNA has U instead of T<br></li><li>RNA polymerases in both prokaryotes &amp; eukaryotes depend on transcription factors (DNA-binding proteins) to bind special sequence motifs in DNA called promoters</li><li>Transcription factors recruit RNA polymerase to bind to promoter sequence and begin transcription just downstream of promoter</li></ul></div></div><div class='cell text-cell'><h3>Prokaryotes: Transcription and Translation are Coupled</h3><div><ul><li>Ribosomes begin to translate even while mRNA is still being transcribed</li></ul></div></div><div class='cell text-cell'><h3>Eukaryotes: transcription &amp; translation are separated in space &amp; time, nuclear pre-mRNA undergoes processing to become mature mRNA</h3><div><ul><li>Transcription occurs in the nucleus, while translation occurs either by free cytoplasmic ribosomes or ribosomes docked to ER</li><li>RNA transcribed from protein-coding gene in nucleus is called pre-mRNA, has to undergo at least 2, usually 3 processing steps before exported as mature mRNA</li><ul><li>5’ end is modified by covalent attachment of 7-methylG nucleotide (5’ cap), required to initiate translation</li><li>For genes with introns, non-protein coding sequences (introns) are removed by RNA splicing, leaving exons</li><li>3- end of pre-mRNA is modified by addition of hundreds of adenine nucleotides (polyA tail), important for nuclear export, mRNA stability, and translation</li></ul><li>All happens during transcription, so full-length “pre-mRNA” never exists</li></ul></div></div><div class='cell text-cell'><h3>Translation: RNA to Protein</h3><div><ul><li>Translating RNA bases to amino acid sequence requires 3 things: mRNA, ribosomes, and tRNAs charged with corresponding amino acids</li><li>mRNA transcribed from protein-coding genes<br></li><li>Ribosomes are assemblies of ribosomal RNA molecules and dozens of proteins</li><li>tRNAs match amino acid to codon in mRNA, anticodon loop has complementary bases to mRNA codon</li><ul><li>3’ end of tRNA has high-energy bond to appropriate amino acid</li><li>Cells have enzymes called amino-acyl tRNA synthases that charge tRNAs with correct amino acid</li></ul><li>Translation begins near 5’ end of mRNA, typically at AUG triplet</li><ul><li>Ribosome moves along 3 bases at a time, tRNA with complementary anticodons arrive with amino acids</li><li>Peptide bond forms, one end has free amino group (N-terminus) and other end has free carboxyl group (C-terminus)&nbsp;</li><ul><li>New amino acids only added to free carboxyl group, so grows from N-terminus to C-terminus</li></ul></ul></ul></div></div><div class='cell text-cell'><h3>The Genetic Code</h3><div><ul><li>Used by all living organisms, only minor modifications in relatively few species</li><li>“Degenerate” because many amino acids specified by 2, 3, 4, or 6 different codons<br></li></ul></div></div><div class='cell text-cell'><h3>Mutations can have vastly different effects based on where they occur</h3><div><ul><li>DNA base substitutions may have no effect if changing 3rd base of codon</li><ul><li>Synonymous mutations</li><li>Exact change still matters, polarity can be disruptive, some parts of proteins are more important than others</li></ul><li>Other substitutions in 1st or 2nd base cause amino acid changes, called “non-synonymous” or mis-sense</li><li>Some mutations cause new stop codon, called “nonsense” and cause truncated polypeptides</li><li>Insertions/deletions (indels) can cause change in all downstream codons, called “frameshift” mutations</li></ul></div></div></div>
+</body>
+</html>

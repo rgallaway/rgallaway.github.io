@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- common.css -->
+  <style>body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:16px 2%;color:#333;word-wrap:break-word}img{max-width:100%!important}code{margin:0;padding:.2em 0;font-size:85%;background-color:rgba(0,0,0,.04);border-radius:3px}code:after,code:before{letter-spacing:-.2em;content:"\00a0"}pre{margin:0}pre>code{margin:0;padding:0;font-size:100%;word-break:normal;background:0 0;border:0}blockquote{margin:0;padding:0 15px;color:#777;border-left:4px solid #ddd}hr{background-color:#ddd;border:0;height:1px;margin:15px 0}ol{list-style-type:decimal}ol ol,ul ol{list-style-type:lower-latin}ol ol ol,ol ul ol,ul ol ol,ul ul ol{list-style-type:lower-roman}table{border-spacing:0;border-collapse:collapse;margin-top:0;margin-bottom:16px}table th{font-weight:700}table td,table th{padding:6px 13px;border:1px solid #ddd}table tr{background-color:#fff;border-top:1px solid #ccc}table tr:nth-child(even){background-color:#f8f8f8}input[type=checkbox]{cursor:default;margin-right:.5em}.task-list-item{list-style-type:none}.task-list-item+.task-list-item{margin-top:3px}.task-list-item input{float:left;margin:.3em 1em .25em -1.6em;vertical-align:middle}</style>
+  <!-- exported.css -->
+  <style>
+    #nav{margin:5px 10px 10px;font-size:15px}
+    #titlearea{border-bottom:1px solid #ccc;font-size:17px;padding:10px}
+    #contentarea{font-size:15px;margin:16px 0}
+    .cell{outline:0;min-height:20px;margin:5px 0;padding:5px 10px;line-height:1.4}
+    .code-cell{font-size:13px}
+    .latex-cell{white-space:pre-wrap;}
+  </style>
+  <!-- User CSS -->
+  <style> .text-cell {font-size: 14px;}.code-cell {font-size: 12px;}.markdown-cell {font-size: 14px;}.latex-cell {font-size: 14px;}</style>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true,
+        processClass: 'latex-cell'
+      },
+      "HTML-CSS": {
+        preferredFont: "STIX"
+      }
+    };
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/docco.min.css">
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class="tex2jax_ignore">
+  <div id="nav"><div>Previous: <a href='4.07 Genomes.html'>4.07 Genomes</a>, Up: <a href='index.html'>Index</a></div></div>
+  <div id="titlearea">
+    <h2>4.08 Gene Regulation</h2>
+  </div>
+  <div id="contentarea"><div class='cell text-cell'><ul><li>Cells only express a subset of their genes</li><li>Respond &amp; adapt to environment by toggling expression of certain genes</li><li>Cells in different parts of organisms differentiate by making different proteins</li><li>Most often regulated at transcription level</li><li>3 levels of regulating gene expression:</li><ul><li>Transcriptional control - whether/how much a gene is translated into mRNA</li><li>Translational control - whether/how much mRNA is translated into protein</li><li>Post-translational control - whether protein is active/inactive, stable/degraded</li></ul><li>All 3 domains use:</li><ul><li>Positive regulation (turning on gene expression)</li><li>Negative regulation (turning off gene expression)</li><li>Co-regulation (turning genes on/off together)</li></ul><li>Differences in specifics between prokaryotes and eukaryotes</li></ul></div><div class='cell text-cell'><h3>Commonalities: Promoters &amp; Regulatory Elements</h3><div><ul><li>Promoters - sites where DNA/RNA polymerase bind to initiate transcription</li><ul><li>Contain binding sites for transcription factors, which either attract or repel RNA polymerase</li></ul><li>Regulatory Element - DNA sequence that transcription factors recognize &amp; bind to</li><ul><li>Promoter along with transcription factor binding elements regulate transcription</li><li>Can be used for either positive or negative control</li><li>Single gene can be subject to multiple levels of control</li></ul><li>Some genes are constitutively expressed: always transcribed</li></ul></div></div><div class='cell text-cell'><h3>Differences: Mechanisms of Co-Regulation</h3><div><ul><li>Both prokaryotic &amp; eukaryotic cells can co-regulate genes, but have different mechanisms</li><li>Prokaryotes:</li><ul><li>Co-regulated genes organized into an operon - 2 or more functionally-related genes are transcribed from single promoter into one long mRNA</li><li>Translated to make proteins encoded by genes in the operon<br></li><li>Start at 5’ end, start translating at first AUG, terminate at stop codon, start again at next AUG</li></ul><li>Eukaryotes:</li><ul><li>Do not have operons, instead co-regulated genes have same DNA regulatory element sequence</li><ul><li>Same activator/repressor can regulate every single gene with that element, even on different chromosomes<br></li></ul><li>Eukaryote-specific complexities: chromatin &amp; alternative splicing</li><ul><li>Eukaryotic DNA organized around histones which organize DNA into nucleosomes, together called chromatin</li><ul><li>Condensed into formations where DNA between nucleosomes is more accessible, controlled by post-translational modifications added to histones</li><li>With acetyl groups added, nucleosomes are less tightly packed, allowing transcription factors access</li><li>With them removed, transcription factors cannot reach the DNA, so gene is repressed</li></ul><li>Eukaryotic mRNA must be processed with 5’ cap, splicing of introns, and 3’ poly-A tail<br></li><ul><li>Each step subject to regulation, along with export to cytoplasm and stability in cytoplasm</li></ul><li>Eukaryotic genes have different splice variants - different exons included in different mRNAs transcribed from same gene (alternative splicing)</li><ul><li>Different types of cells often express different splices of the same gene</li></ul></ul></ul></ul></div></div></div>
+</body>
+</html>
